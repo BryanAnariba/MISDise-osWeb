@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diseño Pagina 1</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="img/logo.png">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <linl rel="stylesheet" href="css/bootstrap-social.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+    <!--LINK PARA OBTENER ICONOS DE REDES SOCIALES-->
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark "><!--navbar navbar-expand es para que se adapte a dispositivos mobiles  fixed-top  si le quieres meter efecto-->
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Web Site</a><!--navbar-brand para que se mire como logo-->
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><span class="navbar-toggler-icon"></span></button><!--El boton es para cuando se adapte a movil se va a ver-->
+
+            <div class="collapse navbar-collapse" id="navbarCollapse"><!--Para cuando se adapte a movil al dar click al boton de arriba se despliegle un menu-->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#home-section" class="nav-link">Home</a>
+                    </li><!--Se estiliza aplicando todo lo que esta en class-->
+                    <li class="nav-item">
+                            <a href="#info-section" class="nav-link">Info</a>
+                    </li><!--Se estiliza aplicando todo lo que esta en class-->
+                    <li class="nav-item">
+                        <a href="#create-section" class="nav-link">Create</a>
+                    </li><!--Se estiliza aplicando todo lo que esta en class-->
+                    <li class="nav-item">
+                            <a href="#share-section" class="nav-link">Share</a>
+                    </li><!--Se estiliza aplicando todo lo que esta en class-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--*********************************************************HOME**************************************************************-->
+    <!--Reenvia al nav de arriba al dar click-->
+    <header id="home-section" style="    background: url('img/fonfo.jpg') no-repeat; min-height:100vh; background-size: cover;background-attachment: fixed;"> 
+        <div class="dark-overlay">
+            <div class="home-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <h1 class="display-4">Lorem <strong>Ipsum</strong> dolor.</h1>
+                            <!--SECCION ITEMS-->
+                            <div class="d-flex flex-row">
+                                <div class="p-4">
+                                    <i class="fas fa-certificate"></i>
+                                </div>
+                                <div class="p-4">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, architecto. Eveniet possimus ipsam ab tempore.
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <div class="p-4">
+                                    <i class="fas fa-certificate"></i>
+                                </div>
+                                <div class="p-4">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, architecto. Eveniet possimus ipsam ab tempore.
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <div class="p-4">
+                                    <i class="fas fa-certificate"></i>
+                                </div>
+                                <div class="p-4">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, architecto. Eveniet possimus ipsam ab tempore.
+                                </div>
+                            </div>
+                        </div>
+                        <!--FORMULARIO AUNQUE PUEDE IR CUALQUIER COSA-->
+                        <div class="col-lg-4">
+                            <div class="card text-center" style="background-color: #005073;"><!--Agrega una targeta-->
+                                <div class="card-body" style="color:white; font-size:18px;">
+                                    <h4>Logeate Con Nosotros.</h3>
+                                    <p>Recibiras Nuestras Ofertas Diariamante y Notificaciones Diarias Sobre Nuestros Productos.</p>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control form-control-lg" placeholder="Username">
+                                    </div>
+                                    <div class="form-group">
+                                            <input type="password" class="form-control form-control-lg" placeholder="Password">
+                                    </div>
+                                    <div class="form-group">
+                                            <input type="password" class="form-control form-control-lg" placeholder="Confirm Pass">
+                                    </div>
+                                    <input type="submit" class="btn btn-outline-light btn-block " value="Registrarse">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--SECCION DE INFORMACION-->
+    <section class="info-head-section" style="background-color: #005073; width: 100%;">
+        <div class="container">
+            <div class="row col-xl-12 col-lg-12 col-md-12 col-12" >
+                <div class="text-center p-5" style="background-color: #005073; width: 100%;">
+                    <h1 class="display-4">Acerca De Nosotros.</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, adipisci, dicta illo, laudantium quisquam aperiam amet corrupti expedita ipsa eligendi vero magni?</p>
+                    <button type="button" class="btn btn-danger" >Nosotros</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="info-section bg-light text-muted py-5" id="info-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xl-6 col-lg-6 col-12">
+                    <img src="img/img1.png" alt="">
+                </div>
+                <div class="col-md-6 col-xl-6 col-lg-6 col-12">
+                    <h3>Lo que Ofrecemos.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit facere deleniti neque commodi nemo tenetur perspiciatis harum distinctio quasi adipisci!</p>
+                    <div class="d-flex flex-row">
+                        <div class="p-4">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="p-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, architecto. Eveniet possimus ipsam ab tempore.
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="p-4">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="p-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, architecto. Eveniet possimus ipsam ab tempore.
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="p-4">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="p-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, architecto. Eveniet possimus ipsam ab tempore.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="info-head-section-2"style="background-color: #005073; width: 100%; color:white;" >
+            <div class="container">
+                <div class="row col-xl-12 col-lg-12 col-md-12 col-12" >
+                    <div class="text-center p-5" style="background-color: #005073; width: 100%;">
+                        <h1 class="display-4">Mas Informacion.</h1>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, adipisci, dicta illo, laudantium quisquam aperiam amet corrupti expedita ipsa eligendi vero magni?</p>
+                        <button type="button" class="btn btn-danger" >Nosotros</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="info-section bg-light text-muted py-5" id="info-section">
+                <div class="container">
+                    <div class="row">
+                            <div class="col-md-6 col-xl-6 col-lg-6 col-12">
+                                <h3>Nuestros Servicios.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit facere deleniti neque commodi nemo tenetur perspiciatis harum distinctio quasi adipisci!</p>
+                                <div class="d-flex flex-row">
+                                    <div class="p-4">
+                                        <i class="fas fa-certificate"></i>
+                                    </div>
+                                    <div class="p-4">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, architecto. Eveniet possimus ipsam ab tempore.
+                                    </div>
+                                </div>
+                                    <div class="d-flex flex-row">
+                                        <div class="p-4">
+                                            <i class="fas fa-certificate"></i>
+                                        </div>
+                                        <div class="p-4">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, architecto. Eveniet possimus ipsam ab tempore.
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-row">
+                                        <div class="p-4">
+                                            <i class="fas fa-certificate"></i>
+                                        </div>
+                                        <div class="p-4">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, architecto. Eveniet possimus ipsam ab tempore.
+                                        </div>
+                                    </div>
+                                </div>
+                        <div class="col-md-6 col-xl-6 col-lg-6 col-12">
+                            <img src="img/img2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </section>
+<!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-4">
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+    
+          <!-- Grid row -->
+          <div class="row">
+    
+            <!-- Grid column -->
+            <div class="col-md-4 mx-auto">
+    
+              <!-- Content -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contenido del Footer</h5>
+              <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit.</p>
+    
+            </div>
+            <!-- Grid column -->
+    
+            <hr class="clearfix w-100 d-md-none">
+    
+            <!-- Grid column -->
+            <div class="col-md-2 mx-auto">
+    
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color:#005073;" id="links">Links</h5>
+    
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" style="color:white;">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Link 4</a>
+                </li>
+              </ul>
+    
+            </div>
+            <!-- Grid column -->
+    
+            <hr class="clearfix w-100 d-md-none">
+    
+            <!-- Grid column -->
+            <div class="col-md-2 mx-auto">
+    
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color:#005073;">Links</h5>
+    
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" style="color:white;">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Link 4</a>
+                </li>
+              </ul>
+    
+            </div>
+            <!-- Grid column -->
+    
+            <hr class="clearfix w-100 d-md-none">
+    
+            <!-- Grid column -->
+            <div class="col-md-2 mx-auto">
+    
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color:#005073;">Links</h5>
+    
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!"style="color:white;">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!"style="color:white;">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!"style="color:white;">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!"style="color:white;">Link 4</a>
+                </li>
+              </ul>
+    
+            </div>
+            <!-- Grid column -->
+    
+          </div>
+          <!-- Grid row -->
+    
+        </div>
+        <!-- Footer Links -->
+    
+        <hr>
+    
+        <!-- Call to action -->
+        <ul class="list-unstyled list-inline text-center py-2">
+          <li class="list-inline-item">
+            <h5 class="mb-1">Register for free</h5>
+          </li>
+          <li class="list-inline-item">
+            <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
+          </li>
+        </ul>
+        <!-- Call to action -->
+    
+        <hr>
+    
+        <!-- Social buttons -->
+        <ul class="list-unstyled list-inline text-center">
+          <li class="list-inline-item">
+            <a  href="#" class="btn-floating btn-fb mx-1">
+              <i class="fab fa-facebook-f"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="btn-floating btn-tw mx-1">
+              <i class="fab fa-twitter"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="btn-floating btn-gplus mx-1">
+              <i class="fab fa-google-plus-g"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="btn-floating btn-li mx-1">
+              <i class="fab fa-linkedin-in"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a  href="#" class="btn-floating btn-dribbble mx-1">
+              <i class="fab fa-dribbble"> </i>
+            </a>
+          </li>
+        </ul>
+        <!-- Social buttons -->
+        <a class="btn-floating btn-lg btn-fb" type="button" role="button"><i class="fab fa-facebook-f"></i></a>
+        <!--Twitter-->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+          <a href="https://www.unah.edu.hn/" target="_blank"> UNAH-2019</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+</body>
+</html>
